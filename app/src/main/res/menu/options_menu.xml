@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/yangmingshan"
+        android:title="Apple">
+        <menu>
+            <item
+                android:id="@+id/guide"
+                android:icon="@drawable/c1"
+                android:title="guide" />
+            <item
+                android:id="@+id/traffic"
+                android:title="@string/traffic" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/yushan"
+        android:icon="@drawable/c1"
+        android:title="hehehe"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/taroko"
+        android:title="Orange" />
+    <item
+        android:id="@+id/myloc"
+        android:title="Banana" />
+    <item
+        android:id="@+id/exit"
+        android:title="Exit" />
+
+</menu>

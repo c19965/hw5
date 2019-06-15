@@ -11,22 +11,48 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
     public void scrollView(View v){
         Intent intent = new Intent();
         intent.setClass(MainActivity.this,Scroll.class);
         startActivity(intent);
+    }
 
-        /*
-        Bundle bndl = new Bundle();
-        bndl.putDouble("height",height);
-        bndl.putString("sex",sex);
+    public void webv(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Web.class);
+        startActivity(intent);
+    }
 
-        intent.putExtras(bndl);
-        */
+    public void ratv(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Ratb.class);
+        startActivity(intent);
+    }
+
+    public void seekv(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Seek.class);
+        startActivity(intent);
+    }
+
+    public void combound(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Cpd.class);
+        startActivity(intent);
+    }
+
+    public void menunu(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Menus.class);
+        startActivity(intent);
+    }
+
+    public void spinn(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Spinner.class);
+        startActivity(intent);
     }
 }
 

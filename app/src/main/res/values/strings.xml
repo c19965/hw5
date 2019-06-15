@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">test</string>
+
+    <string name="checked">checked</string>
+    <string name="unchecked">unchecked</string>
+
+    <string name="apple">APPLE</string>
+    <string name="guide">Guide</string>
+    <string name="orange">Orange</string>
+    <string name="banana">BAnana</string>
+    <string name="traffic">Traffic</string>
+    <string name="myloc">My Location</string>
+
+    <string-array name="food_array">
+        <item>spaghetti</item>
+        <item>dumpling</item>
+        <item>sushi</item>
+    </string-array>
+
+    <string name="text_NothingSelected">Nothing selected!</string>
+
 </resources>
